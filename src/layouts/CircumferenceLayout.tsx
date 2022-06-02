@@ -6,7 +6,7 @@ type CircumferenceLayoutProps = {
 
 export default function CircumferenceLayout({ children }: CircumferenceLayoutProps) {
 	return <Fragment>
-		<main className="container mx-auto my-2 overflow-x-hidden">
+		<main className="container mx-auto my-2 overflow-x-hidden flex-column">
 			{children}
 		</main>
 		<footer
