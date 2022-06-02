@@ -1,9 +1,9 @@
-import { useState } from 'react'
+import Sun from "@/pages/Sun";
 
 function App() {
   return (
     <div className="App">
-
+      <Sun />
     </div>
   )
 }

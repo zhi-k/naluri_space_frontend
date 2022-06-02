@@ -26,7 +26,7 @@ export default function Sun() {
 			</div>
 		</div>
 
-		<div className="flex">
+		<div className="flex mb-4">
 			<span className="font-bold mr-1">Pi:</span>
 			<p className="flex-row break-word">{fakeData.pi}</p>
 		</div>
