@@ -13,12 +13,19 @@ export default function Sun() {
 
 	useEffect(() => {
 		getCircumference().then(({ data }: { data: ISunCircumferenceData }) => {
+			if (!data.success) {
+				console.error(data.message);
+				return
+			}
+
 			setData({
 				circumference: data.data.circumference,
 				pi: data.data.pi,
 				elapsedTime: data.data.elapsed_time,
 				decimalPoints: data.data.decimal_points,
 			});
+		}).catch((err) => {
+			console.error(err);
 		});
 	}, []);
 
