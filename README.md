@@ -3,7 +3,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/eb37a4b8-7029-41a7-bf5b-72031303942e/deploy-status)](https://app.netlify.com/sites/spiffy-puffpuff-cb3246/deploys)
 
 ### Production URL
-`spiffy-puffpuff-cb3246.netlify.app`
+`https://spiffy-puffpuff-cb3246.netlify.app`
 
 ## Getting started
 1. Install packages
