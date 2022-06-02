@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 
 type CircumferenceLayoutProps = {
-	children: JSX.Element
+	children: JSX.Element | JSX.Element[]
 }
 
 export default function CircumferenceLayout({ children }: CircumferenceLayoutProps) {
